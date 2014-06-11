@@ -91,7 +91,6 @@ class UnixSocket(BaseSocket):
 
     def close(self):
         super(UnixSocket, self).close()
-        os.unlink(self.address)
 
 def create_socket(conf, log):
     """
