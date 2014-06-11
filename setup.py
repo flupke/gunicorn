@@ -64,7 +64,7 @@ class PyTest(Command):
 
 
 setup(
-    name = 'gunicorn',
+    name = 'gunicorn-flupke',
     version = __version__,
 
     description = 'WSGI HTTP Server for UNIX',
